@@ -1,0 +1,30 @@
+research_task:
+  description: >
+    Conduct thorough research about {topic} for a newsletter audience.
+    Focus on the most relevant developments, useful context, and timely insights
+    for {current_year}.
+  expected_output: >
+    A list with 10 bullet points covering the most relevant newsletter-ready
+    insights about {topic}.
+  agent: researcher
+
+writing_task:
+  description: >
+    Use the research findings to write a compelling newsletter about {topic}.
+    Include a strong title, a short introduction, and clear sections that make
+    the content easy to scan and enjoyable to read.
+  expected_output: >
+    A complete newsletter draft in markdown with a title, introduction, and
+    well-structured sections.
+    Formatted as markdown without '```'
+  agent: writer
+
+review_task:
+  description: >
+    Review and refine the newsletter draft for clarity, flow, tone, grammar,
+    and factual consistency. Improve readability while keeping the content
+    accurate and publication-ready.
+  expected_output: >
+    A final polished newsletter in markdown, ready for sharing or publication.
+    Formatted as markdown without '```'
+  agent: reviewer
